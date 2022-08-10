@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<body>
+<form action="simpan.php" method="get">
+<h2 align="justify" border="blue"><font  style="alignment-baseline:" ><i><u>Input Data Mahasiswa </u></i></font></h2>
+<table border="0" align="left">
+<tr>
+    <td>NIM </td>
+    <td><input type=r="text" name="nim" size="10"/></td>
+</tr>
+
+<tr>
+    <td>Nama</td> 
+    <td><input type=r="text" name="nama" size="30" /></td>
+</tr>
+
+
+<tr>
+    <td>Konsentrasi </td> 
+    <td>
+        <select name="konsentrasi">
+            <option value="RPL"> RPL</option>
+            <option value="Multimedia"> Multimedia</option>
+            <option value="jaringan"> Jaringan</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Menguasai</td>
+    <td>
+        <input type="checkbox" name="menguasai1" value="web" /> Web
+        <input type="checkbox" name="menguasai2" value="android" /> Android
+        <input type="checkbox" name="menguasai3" value="pyton" /> Pyton
+    </td>
+</tr>
+
+<tr>
+    <td>Kelas Peminatan yang diinginkan</td>
+    <td>
+        <input type="radio" name="kelas_peminatan" value="data_sains" /> Data sains
+        <input type="radio" name="kelas_peminatan" value="android" /> Android
+        <input type="radio" name="kelas_peminatan" value="iot" /> IoT 
+    </td>
+</tr>
+
+<tr>
+    <td><input type="submit" Value="kirim"></td></tr>
+</table>
+</form>
+</body>
+</html>
